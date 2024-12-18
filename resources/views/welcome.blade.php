@@ -58,7 +58,7 @@
 <body>
     <div>
         <div class="logo" style="text-align: center; margin-bottom: 20px; font-size: 40px;">
-            Saturday<br>Games
+            Saturday
         
         </div>
         <div class="grid">
@@ -68,7 +68,7 @@
 
             <div class="grid-item" style="display: flex; flex-direction: column; align-items: center;">
     <i class="white-22 fa-solid fa-6"></i>
-    <p style="font-size: 14px; color: #b71540; text-align: center; margin-top: 5px;">Solve Six</p>
+    <a href="{{ route('wordle') }}" class="btn btn-primary" style="font-size: 14px; color: #b71540; text-align: center; margin-top: 5px;">Solve Six</a>
 </div>
             <div class="grid-item">
         <i class="white-22 fa-solid fa-snowflake"></i>
@@ -102,7 +102,7 @@
             </div>
 
         </div>
-        <p class="arvo-bold" >Concord Puzzle</p>
+        <a href="https://concordpuzzle.com" style="text-decoration: none;"><p class="arvo-bold" >Concord Puzzle</p>
     </div>
 </body>
 </html>
